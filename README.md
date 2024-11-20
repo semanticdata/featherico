@@ -14,7 +14,7 @@
 
 - Code Copy Button
 - Back to Top Button
-- Use Marked.js
+- Table of Contents
 
 ## 🎨 Customization
 
@@ -104,3 +104,9 @@ CSS variables to easily customize the theme to your liking.
     <td><code>#6655aa</code></td>
   </tr>
 </table>
+
+## Useful Links
+
+- [GitHub Repo](https://github.com/semanticdata/featherico)
+- [Feather Wiki](https://feather.wiki/)
+- [Tiddlyhost](https://tiddlyhost.com/)
