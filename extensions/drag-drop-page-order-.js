@@ -25,8 +25,8 @@ FW.ready(() => { // Wait until Feather Wiki is fully initialized
         const listContainer = document.createElement('div');
         listContainer.id = 'dragDropList';
         listContainer.style.border = '1px solid #ccc';
-        listContainer.style.padding = '10px';
-        listContainer.style.borderRadius = '4px';
+        listContainer.style.padding = '5px';
+        listContainer.style.borderRadius = '3px';
         listContainer.style.backgroundColor = '#f9f9f9';
 
         // Split textarea value into list items and populate the container
@@ -34,7 +34,7 @@ FW.ready(() => { // Wait until Feather Wiki is fully initialized
         listItems.forEach(item => {
             const listItem = document.createElement('div');
             listItem.textContent = item;
-            listItem.style.padding = '8px';
+            listItem.style.padding = '4px';
             listItem.style.margin = '5px 0';
             listItem.style.border = '1px solid #ddd';
             listItem.style.borderRadius = '3px';

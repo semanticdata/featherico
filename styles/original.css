@@ -1,0 +1,127 @@
+:root {
+    --text-color: #000;
+    --border-color: #000;
+    --background-color: #fff;
+    --sidebar-background: #cbdfbd;
+    --main-background: #f6f4d2;
+    --button-background: #a6bb3a;
+    --changed-background: #f19c79;
+    --accent-background: #76362e;
+    --link-color: #6655aa;
+    --active-background: #000;
+    --active-color: #fff;
+}
+
+a {
+    color: var(--link-color);
+}
+
+/* sidebar */
+.sb {
+    background: var(--sidebar-background);
+}
+
+@media (min-width:50rem) {
+    .sb {
+        border-right: 1px solid var(--text-color);
+    }
+}
+
+/* main content */
+main>section,
+.uc,
+.mw {
+    background: var(--main-background);
+}
+
+.uc>*+* {
+    margin-top: 1rem;
+}
+
+header {
+    margin-bottom: 1rem;
+}
+
+/* pages and recent tabs */
+.tabs>* {
+    background: var(--secondary-background);
+    border-color: var(--border-color);
+    color: var(--secondary-foreground);
+    border-top: 1px solid var(--border-color);
+    border-left: 1px solid var(--border-color);
+    border-right: 1px solid var(--border-color);
+}
+
+.tabs {
+    margin-bottom: 0;
+}
+
+.tabs+ul {
+    margin-top: 0;
+    padding-top: 0.5rem;
+}
+
+.tabs .a {
+    background: var(--active-background);
+    color: var(--active-color);
+}
+
+.tabs>* {
+    background: var(--main-background);
+    color: var(--main-foreground);
+}
+
+.sb>nav:nth-child(6)>ul:nth-child(4),
+.n>ul:nth-child(4) {
+    padding: 0.5rem 0.5rem 0.5rem 1.5rem !important;
+}
+
+.n>ul {
+    border: 1px solid var(--border-color);
+}
+
+button {
+    background: var(--button-background);
+    color: var(--text-color);
+    border: 1px solid var(--border-color);
+}
+
+/* Tables */
+table {
+    border-collapse: collapse;
+    border-radius: 1rem;
+    table-layout: fixed;
+}
+
+table tr {
+    border: 1px solid var(--border-color);
+}
+
+table th,
+table td {
+    text-align: center;
+    padding: 0.625rem;
+}
+
+table th {
+    font-size: 0.85em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+kbd>kbd {
+    vertical-align: middle;
+    background: #f5f6fa;
+    border-radius: 3px;
+    border: 1px solid #b4b4b4;
+    box-shadow:
+        0 1px 1px rgba(0, 0, 0, 0.2),
+        0 2px 0 0 rgba(255, 255, 255, 0.7) inset;
+    font-weight: 700;
+    padding: 2px 4px;
+    white-space: nowrap;
+}
+
+.uc pre {
+    border: 1px solid var(--border-color);
+}
