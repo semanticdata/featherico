@@ -4,6 +4,8 @@
 
 ## 🔌 Extensions
 
+These are the official Feather Wiki extensions used on the project:
+
 - [Search](https://feather.wiki/?page=extensions_search)
 - [Transclusion](https://feather.wiki/?page=extensions_transclusion)
 - [Marked.js Replacement](https://feather.wiki/?page=extensions_marked-js_replacement)
@@ -12,13 +14,15 @@
 
 ### Custom Extensions
 
-- Back to Top Button
-- Code Copy Button
-- Table of Contents
-- Drag and Drop Page Order
-- CodeMirror for Custom CSS
-- CodeMirror for Custom JavaScript
-- CodeMirror for Custom HTML
+These are new extensions I am building for Feather Wiki. Most of them are not ready to be used yet.
+
+- [Back to Top Button](/extensions/back-to-top-button.js)
+- [Code Copy Button](/extensions/code-copy-button.js)
+- [Table of Contents](/extensions/table-of-contents.js)
+- [Drag and Drop Page Order](/extensions/drag-drop-page-order-.js)
+- [CodeMirror for Custom CSS](/extensions/codemirror-custom-css.js)
+- [CodeMirror for Custom JavaScript](/extensions/codemirror-custom-js.js)
+- [CodeMirror for Custom HTML](/extensions/codemirror-custom-html.js)
 
 ## 🎨 Customization
 
@@ -28,8 +32,9 @@ CSS variables to easily customize the theme to your liking.
 --text-color: #000;
 --border-color: #000;
 --background-color: #fff;
---sidebar-background: #cbdfbd;
---main-background: #f6f4d2;
+--sidebar-background: #d2d2d2;
+--main-background: #fff;
+--secondary-background: #e2e2e2;
 --button-background: #a6bb3a;
 --changed-background: #f19c79;
 --accent-background: #76362e;
