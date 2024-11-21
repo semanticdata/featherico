@@ -12,9 +12,13 @@
 
 ### Custom Extensions
 
-- Code Copy Button
 - Back to Top Button
+- Code Copy Button
 - Table of Contents
+- Drag and Drop Page Order
+- CodeMirror for Custom CSS
+- CodeMirror for Custom JavaScript
+- CodeMirror for Custom HTML
 
 ## 🎨 Customization
 
@@ -34,79 +38,7 @@ CSS variables to easily customize the theme to your liking.
 --active-color: #fff;
 ```
 
-<table>
-  <tr>
-    <th>CSS Variable</th>
-    <th>Color</th>
-    <th>Color Code</th>
-  </tr>
-  <tr>
-    <td><code>--text-color</code></td>
-    <td>
-      <div style="height: 1rem; width: 1rem; background-color: black; margin: 0 auto;"></div>
-    </td>
-    <td><code>black</code></td>
-  </tr>
-  <tr>
-    <td><code>--border-color</code></td>
-    <td>
-      <div style="height: 1rem; width: 1rem; background-color: black; margin: 0 auto;"></div>
-    </td>
-    <td><code>black</code></td>
-  </tr>
-  <tr>
-    <td><code>--background-color</code></td>
-    <td>
-      <div style="height: 1rem; width: 1rem; background-color: white; margin: 0 auto;"></div>
-    </td>
-    <td><code>white</code></td>
-  </tr>
-  <tr>
-    <td><code>--sidebar-background</code></td>
-    <td>
-      <div style="height: 1rem; width: 1rem; background-color: #cbdfbd; margin: 0 auto;"></div>
-    </td>
-    <td><code>#cbdfbd</code></td>
-  </tr>
-  <tr>
-    <td><code>--main-background</code></td>
-    <td>
-      <div style="height: 1rem; width: 1rem; background-color: #f6f4d2; margin: 0 auto;"></div>
-    </td>
-    <td><code>#f6f4d2</code></td>
-  </tr>
-  <tr>
-    <td><code>--button-background</code></td>
-    <td>
-      <div style="height: 1rem; width: 1rem; background-color: #A6BB3A; margin: 0 auto;"></div>
-    </td>
-    <td><code>#A6BB3A</code></td>
-  </tr>
-  <tr>
-    <td><code>--changed-background</code></td>
-    <td>
-      <div style="height: 1rem; width: 1rem; background-color: #f19c79; margin: 0 auto;"></div>
-    </td>
-    <td><code>#f19c79</code></td>
-  </tr>
-  <tr>
-    <td><code>--accent-background</code></td>
-    <td>
-      <div style="height: 1rem; width: 1rem; background-color: #76362E; margin: 0 auto;"></div>
-    </td>
-    <td><code>#76362E</code></td>
-  </tr>
-  <tr>
-    <td><code>--link-color</code></td>
-    <td>
-      <div style="height: 1rem; width: 1rem; background-color: #6655aa; margin: 0 auto;"></div>
-    </td>
-    <td><code>#6655aa</code></td>
-  </tr>
-</table>
-
 ## Useful Links
 
-- [GitHub Repo](https://github.com/semanticdata/featherico)
 - [Feather Wiki](https://feather.wiki/)
 - [Tiddlyhost](https://tiddlyhost.com/)
