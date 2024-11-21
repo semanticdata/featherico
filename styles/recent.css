@@ -1,20 +1,49 @@
 :root {
     --text-color: #000;
+    --link-color: #6655aa;
     --border-color: #000;
-    --background-color: #fff;
-    --sidebar-background: #d2d2d2;
+
     --main-background: #fff;
     --secondary-background: #e2e2e2;
+    --sidebar-background: #d2d2d2;
     --button-background: #a6bb3a;
-    --changed-background: #f19c79;
-    --accent-background: #76362e;
-    --link-color: #6655aa;
+
     --active-background: #000;
     --active-color: #fff;
 }
 
 a {
     color: var(--link-color);
+}
+
+header {
+    margin-bottom: 1rem;
+}
+
+footer {
+    height: 1.5rem;
+}
+
+summary:is(.np, .b),
+button {
+    background: var(--button-background);
+    color: var(--text-color);
+    border: 1px solid var(--border-color);
+}
+
+aside.db.r {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+aside.db.r .c {
+    margin-left: 5px;
+}
+
+/* Show/Hide Menu Button - mobile */
+.sbt {
+    margin-top: 0;
 }
 
 /* sidebar */
@@ -28,16 +57,30 @@ a {
     }
 }
 
+@media (max-width:50rem) {
+    .sb {
+        border-bottom: 1px solid var(--text-color);
+    }
+
+    .uc table {
+        min-width: 100%;
+    }
+}
+
 /* main content */
+main>* {
+    padding: 1rem;
+}
+
 main>section,
 .uc,
 .mw {
     background: var(--main-background);
 }
 
-/* .uc>*+* {
+.uc>*+* {
     margin-top: 1rem;
-} */
+}
 
 .uc {
     max-width: 85ch;
@@ -49,10 +92,6 @@ main>section,
 
 .uc blockquote {
     background: rgba(0, 0, 0, 0.05);
-}
-
-header {
-    margin-bottom: 1rem;
 }
 
 /* pages and recent tabs */
@@ -72,6 +111,13 @@ header {
     background: var(--secondary-background);
     margin-top: 0;
     padding-top: 0.5rem;
+    border: 1px solid var(--border-color);
+    padding: 0.5rem 0.5rem 0.5rem 1.5rem !important;
+}
+
+.tabs+ul li .a {
+    background: var(--active-background);
+    color: var(--active-color);
 }
 
 .tabs .a {
@@ -84,26 +130,12 @@ header {
     color: var(--main-foreground);
 }
 
-.sb>nav:nth-child(6)>ul:nth-child(4),
-.n>ul:nth-child(4) {
-    padding: 0.5rem 0.5rem 0.5rem 1.5rem !important;
-}
-
-.n>ul {
-    border: 1px solid var(--border-color);
-}
-
-button {
-    background: var(--button-background);
-    color: var(--text-color);
-    border: 1px solid var(--border-color);
-}
-
 /* Tables */
 table {
     border-collapse: collapse;
     border-radius: 1rem;
     table-layout: fixed;
+    min-width: 70%;
 }
 
 table tr {

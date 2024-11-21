@@ -1,0 +1,36 @@
+/* Reorganize Settings Page */
+.pb {
+    display: flex;
+    flex-direction: column;
+}
+
+.pb #wCss,
+.pb label[for="wCss"] {
+    order: 1;
+}
+
+.pb .h:nth-of-type(1),
+.pb #wJs,
+.pb label[for="wJs"] {
+    order: 2;
+}
+
+.pb .h:nth-of-type(2),
+.pb #wHead,
+.pb label[for="wHead"] {
+    order: 3;
+}
+
+.pb #wPo,
+.pb label[for="wPo"] {
+    order: 4;
+}
+
+.pb #wOut+span,
+.pb #wOut,
+.pb label[for="wOut"],
+.pb #wPub,
+.pb #wPub+span,
+.pb label[for="wPub"] {
+    order: 5;
+}
