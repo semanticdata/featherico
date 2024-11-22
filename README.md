@@ -30,15 +30,14 @@ CSS variables to easily customize the theme to your liking.
 
 ```css
 --text-color: #000;
+--link-color: #6655aa;
 --border-color: #000;
---background-color: #fff;
---sidebar-background: #d2d2d2;
+
 --main-background: #fff;
 --secondary-background: #e2e2e2;
+--sidebar-background: #d2d2d2;
 --button-background: #a6bb3a;
---changed-background: #f19c79;
---accent-background: #76362e;
---link-color: #6655aa;
+
 --active-background: #000;
 --active-color: #fff;
 ```
